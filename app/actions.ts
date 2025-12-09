@@ -15,4 +15,5 @@ export async function getWeatherData(city : string): Promise<{data?:WeatherData}
         console.error(error);
         return{}
     }
+    
 }

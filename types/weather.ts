@@ -13,6 +13,7 @@ export interface WeatherData {
         temp_f:number,
         humidity:number,
         is_day:number,  
+        feelslike_c:number,
 
         condition: {
             code:number,
@@ -20,5 +21,4 @@ export interface WeatherData {
             text:string
         },
     }
-
 }
